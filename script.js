@@ -13,13 +13,13 @@ let reset=document.querySelector('.reset')
 r.addEventListener('click',()=>{
   random= (Math.random()*10)
   if(random<4){
-    result.innerHTML='<h2 class="result"> YOUR CHOICE: 👊<br> PC CHOICE :👊<br>DRAW</h2>';
+    result.innerHTML='<h2 class="result"> YOUR CHOICE: 👊 PC CHOICE :👊 →DRAW</h2>';
     d++
   }else if(random<7){
-    result.innerHTML='<h2 class="result"> YOUR CHOICE: 👊<br> PC CHOICE :🤚<br>LOOSE</h2>';
+    result.innerHTML='<h2 class="result"> YOUR CHOICE: 👊 PC CHOICE :🤚 →LOOSE</h2>';
     l++
   }else{
-    result.innerHTML='<h2 class="result"> YOUR CHOICE: 👊<br> PC CHOICE :✌️<br>WON</h2>';
+    result.innerHTML='<h2 class="result"> YOUR CHOICE: 👊 PC CHOICE :✌️ →WON</h2>';
     w++
   }
   score.innerHTML='<p class="score">YOUR SCORE: '+w+'<br>PC SCORE: '+l+'<br>DRAW: '+d+'</p>';
@@ -28,13 +28,13 @@ r.addEventListener('click',()=>{
 p.addEventListener('click',()=>{
   random= (Math.random()*10)
   if(random<4){
-    result.innerHTML='<h2 class="result"> YOUR CHOICE:🤚 <br> PC CHOICE :👊<br>WON</h2>';
+    result.innerHTML='<h2 class="result"> YOUR CHOICE: 🤚 PC CHOICE :👊 →WON</h2>';
     w++
   }else if(random<7){
-    result.innerHTML='<h2 class="result"> YOUR CHOICE: 🤚<br> PC CHOICE :🤚<br>DRAW</h2>';
+    result.innerHTML='<h2 class="result"> YOUR CHOICE: 🤚 PC CHOICE :🤚 →DRAW</h2>';
     d++
   }else{
-    result.innerHTML='<h2 class="result"> YOUR CHOICE: 🤚<br> PC CHOICE :✌️<br>LOOSE</h2>';
+    result.innerHTML='<h2 class="result"> YOUR CHOICE: 🤚 PC CHOICE :✌️ →LOOSE</h2>';
     l++
   }
     score.innerHTML='<p class="score">YOUR SCORE: '+w+'<br>PC SCORE: '+l+'<br>DRAW: '+d+'</p>';
@@ -43,13 +43,13 @@ p.addEventListener('click',()=>{
 s.addEventListener('click',()=>{
   random= (Math.random()*10)
   if(random<4){
-    result.innerHTML='<h2 class="result"> YOUR CHOICE: ✌️<br> PC CHOICE :👊<br>LOOSE</h2>';
+    result.innerHTML='<h2 class="result"> YOUR CHOICE: ✌️ PC CHOICE :👊 →LOOSE</h2>';
     l++
   }else if(random<7){
-    result.innerHTML='<h2 class="result"> YOUR CHOICE: ✌️<br> PC CHOICE :🤚<br>WON</h2>';
+    result.innerHTML='<h2 class="result"> YOUR CHOICE: ✌️ PC CHOICE :🤚 →WON</h2>';
     w++
   }else{
-    result.innerHTML='<h2 class="result"> YOUR CHOICE: ✌️<br> PC CHOICE :✌️<br>DRAW</h2>';
+    result.innerHTML='<h2 class="result"> YOUR CHOICE: ✌️ PC CHOICE :✌️ →DRAW</h2>';
     d++
   }
     score.innerHTML='<p class="score">YOUR SCORE: '+w+'<br>PC SCORE: '+l+'<br>DRAW: '+d+'</p>';

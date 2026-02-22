@@ -1,0 +1,38 @@
+body{
+  background-color:aquamarine;
+  color: #034e76;
+}
+.rock,.paper,.scissor{
+  background-color: #034e76;
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+}
+
+.rock:hover,.paper:hover,.scissor:hover{
+  background-color: #0c72a9;
+  transform: scale(1.03);
+  transition: 0.2s ease;
+}
+h1{
+  text-align: center;
+}
+h2{
+  font-size: 20px;
+}
+.reset{
+  background-color: #034e76;
+  border: none;
+  height: 40px;
+  width: 140px;
+  text-align: center;
+  border-radius: 18px;
+  font-size: 12px;
+  color:white;
+  margin-left: 30%;
+}
+.reset:hover{
+  background-color: #0c72a9;
+}
