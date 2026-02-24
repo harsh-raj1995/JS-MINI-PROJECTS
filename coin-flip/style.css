@@ -1,0 +1,15 @@
+.box{
+  margin-top: 200px;
+  margin-left: 400px;
+  border-radius: 20px;
+  border-color: azure;
+  width: 40%;
+}
+body{
+  background-color: black;
+  color: aliceblue;
+}
+p{
+  font-size: 40px;
+  color: aliceblue;
+}
